@@ -126,6 +126,9 @@ void AesModeCTR::Encrypt(const unsigned char *in, unsigned char *out, size_t len
     return;
 }
 
-void AesModeCTR::Decrypt(const unsigned char *in, unsigned char *out, size_t len)
-{
-}
+//void AesModeCTR::Decrypt(const unsigned char *in, unsigned char *out, size_t len)
+//{
+//    // Decrypt: We can get the original data by 
+//    // sending it out for one more encryption operation.
+//}
+

@@ -43,7 +43,6 @@ public :
     AesModeCTR::AesModeCTR(const unsigned char *key, AesKeySize ks, const unsigned char *iv);
     void AesModeCTR::GetIvCtrMode(size_t c, unsigned char BuffCtr[IV_SIZE]);
     void AesModeCTR::Encrypt(const unsigned char *in, unsigned char *out, size_t len);
-    void AesModeCTR::Decrypt(const unsigned char *in, unsigned char *out, size_t len);
 };
 
 

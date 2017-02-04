@@ -3,9 +3,9 @@
 ## Licensed under the Apache License, Version 2.0 (the "License")
 
 
-# AesEncriptionModes
+# Aes Encription  with CTR mode
 
-This example (AesModeCTR) uses AES256 with CTR mode for encryption and decryption. Then the data's length does not need to be a multiple of AES's block size.
+This example (AesModeCTR) uses AES256 key with CTR mode for encryption and decryption. Then the data's length does not need to be a multiple of AES's block size.
 
 A pure AES encryption (ECB mode) will produce identical ciphertext blocks for identical plaintext blocks; that may not hide data patterns well. 
 Then it is compromising message confidentiality, 
