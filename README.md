@@ -9,7 +9,7 @@ This example (AesModeCTR) uses AES256 key with CTR mode for encryption and decry
 
 A pure AES encryption (ECB mode) will produce identical ciphertext blocks for identical plaintext blocks; that may not hide data patterns well. 
 Then it is compromising message confidentiality, 
-then it not advisable for any seriously cryptographic protocols at all. 
+so it is not recommended for any seriously cryptographic protocols at all. 
   
 This limitation can be overcome by choosing appropriate encryption modes that best suit for your work. 
 By choosing Counter (CTR) mode we can achieve parallelization of Encryption and Decryption operation also Random read access too. 
